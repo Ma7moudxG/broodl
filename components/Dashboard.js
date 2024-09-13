@@ -25,7 +25,7 @@ export default function Dashboard() {
                 sum_moods += days_mood
         }
     }
-    return {num_days: total_num_of_days + 1, average_mood: sum_moods / total_num_of_days }
+    return {num_days: total_num_of_days, average_mood: sum_moods / total_num_of_days }
   }
 
   const statuses = {

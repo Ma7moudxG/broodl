@@ -35,3 +35,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/utils/broodl-25eae-firebase-adminsdk-z28az-219975f2ee.json
