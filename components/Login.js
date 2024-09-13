@@ -31,9 +31,7 @@ export default function Login() {
     }
   }
   return (
-    <form 
-    onSubmit={handleSubmit}
-    className="flex flex-col flex-1 justify-center items-center gap-4">
+    <div className="flex flex-col flex-1 justify-center items-center gap-4">
       <h3 className={"text-4xl sm:text-5xl md:text-6xl " + fugaz.className}>
         {isRegistered ? "Register" : "Log In"}
       </h3>
@@ -73,6 +71,6 @@ export default function Login() {
           {isRegistered ? " Sign in" : " Sign up"}
         </button>
       </p>
-    </form>
+    </div>
   );
 }
