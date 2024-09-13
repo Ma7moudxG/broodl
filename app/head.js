@@ -10,6 +10,10 @@ export default function Head() {
         crossOrigin="anonymous"
         referrerPolicy="no-referrer"
       />
+      <link 
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Open+Sans&display=swap" 
+        rel="stylesheet" 
+      />
     </head>
   );
 }
